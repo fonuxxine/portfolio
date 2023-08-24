@@ -1,0 +1,30 @@
+.row {
+    display: grid;
+    grid-template-columns: 25vw 2fr;
+    grid-column-gap: 100px;
+    margin-top: 80px;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.arrow a:hover {
+    color: var(--main-blue);
+}
+
+.solution-website {
+    padding: 50px 150px;
+}
+
+.bubble {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.bubble img {
+    margin-right: 20px;
+}

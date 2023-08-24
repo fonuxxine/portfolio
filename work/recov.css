@@ -1,0 +1,6 @@
+.row {
+    display: grid;
+    grid-template-columns: 25vw 2fr;
+    grid-column-gap: 100px;
+    margin-top: 80px;
+}

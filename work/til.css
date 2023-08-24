@@ -1,0 +1,43 @@
+.row {
+    display: grid;
+    grid-template-columns: 25vw 2fr;
+    grid-column-gap: 100px;
+    margin-top: 80px;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.solution-website {
+    padding: 50px 150px;
+}
+
+.page {
+    display: flex;
+}
+
+.page img {
+    margin-right: 100px;
+    width: 50vw;
+}
+
+.page div {
+    height: 100%;
+}
+
+.solution-page {
+    margin-top: 100px;
+}
+
+.bubble {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+.bubble img {
+    margin-right: 20px;
+}
