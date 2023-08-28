@@ -16,12 +16,12 @@ body .content{
     justify-content: space-between;
 }
 
-ul {
+.case-ul {
     list-style-type: none;
     margin-top: 15px;
 }
 
-li {
+.case-ul li {
     display: flex;
     align-items: flex-start;
     margin-top: 5px;
