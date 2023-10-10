@@ -127,3 +127,15 @@ footer p {
     font-weight: 200; 
     font-size: 1.5rem;
 }
+
+.recov {
+    background-color: #000;
+}
+
+.recov a {
+    color: white;
+}
+
+.recov a:hover {
+    color: var(--main-blue);
+}
