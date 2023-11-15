@@ -35,17 +35,22 @@ header {
 
 h1 {
     font-weight: 400; 
-    font-size: 1.9rem;
+    font-size: 1.5rem;
 }
 
 h2 {
     font-weight: 400; 
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 h3 {
     font-weight: 400; 
-    font-size: 1.2rem;
+    font-size: 1rem;
+}
+
+p {
+    font-size: .9rem;
+    line-height: 24px;
 }
 
 nav {
@@ -110,7 +115,6 @@ header #name:hover, .nav_links li a:hover {
 .project-row {
     display: flex;
     justify-content: space-between;
-    flex-shrink: 0;
 }
 
 .description {
