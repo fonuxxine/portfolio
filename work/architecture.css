@@ -1,7 +1,18 @@
+.arch-work {
+    margin-bottom: 80px;
+}
+
+.arch-work p {
+    margin-bottom: 30px;
+}
+
 .row  {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .row img {
-    width: 30em;
+    max-width: 100%; 
+    height: auto;
+    object-fit: contain;
 }
