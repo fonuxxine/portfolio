@@ -143,3 +143,11 @@ footer p {
 .recov a:hover {
     color: var(--main-blue);
 }
+
+.tech-stack {
+    display: flex;
+}
+
+.tech-stack img {
+    margin-right: 10px;
+}
