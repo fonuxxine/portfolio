@@ -125,6 +125,27 @@ header #name:hover, .nav_links li a:hover {
 
 .case-study {
     margin-bottom: 80px;
+    transition: transform ease 900ms;
+}
+
+.case-study:hover {
+    transform: translate(0, -8px);
+}
+
+#one-fridge:hover {
+    box-shadow: 0 4px 8px 0 rgba(223, 216, 215, 0.3);
+}
+
+#shifting-perspective:hover {
+    box-shadow: 0 4px 8px 0 rgba(45, 54, 56, 0.3);
+}
+
+#recov:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+#til:hover {
+    box-shadow: 0 4px 8px 0 rgba(174, 180, 204, 0.3);
 }
 
 footer p {
@@ -137,7 +158,7 @@ footer p {
 }
 
 .recov a {
-    color: white;
+    color: var(--light-grey);
 }
 
 .recov a:hover {

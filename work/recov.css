@@ -4,3 +4,16 @@
     grid-column-gap: 100px;
     margin-top: 80px;
 }
+
+.arrow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: .9rem;
+    line-height: 24px;
+    color: var(--light-blue);
+}
+
+#download-app:hover {
+    color: var(--main-blue);
+}
